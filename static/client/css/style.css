@@ -1,0 +1,43 @@
+* {
+	font-family: "Nunito";
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 200;
+}
+
+button {
+	border: none;
+	background-color: rgb(166, 89, 218);
+	padding: 15px;
+	width: 125px;
+	border-radius: 5%;
+	font-size: 20px;
+	margin: auto 5px;
+}
+
+button:hover {
+	background-color: rgb(109, 14, 133);
+	color: white;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+p {
+	font-size: 20px;
+}
+
+#descripPara {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#namesPara {
+	margin-top: 8px;
+}
