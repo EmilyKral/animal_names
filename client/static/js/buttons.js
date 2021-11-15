@@ -3,22 +3,6 @@ function init() {
 	let dogs = document.querySelector("#dogs");
 	let unicorns = document.querySelector("#unicorns");
 
-	// THE SAME FUNCTION AS BELOW
-	// cats.addEventListener("click", async () => {
-	// 	let para = document.querySelector("#names");
-	// 	try {
-	// 		const url = "http://localhost:3000/cats";
-	// 		const response = await fetch(url);
-	// 		const data = await response.json();
-	// 		console.log(data);
-	// 		para.textContent = `Here are some great cat names: ${data.cats.join(
-	// 			", "
-	// 		)}`;
-	// 	} catch (error) {
-	// 		console.log(error);
-	// 	}
-	// });
-
 	cats.addEventListener("click", displayNames);
 	dogs.addEventListener("click", displayNames);
 	unicorns.addEventListener("click", displayNames);
